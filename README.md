@@ -1,19 +1,13 @@
 # Habeeb Office — Premium QR Page
 
-Static, free GitHub Pages landing page for Habeeb Office.
+Static GitHub Pages landing page for Habeeb Office.
 
-## Files
-
-- `index.html`
-- `style.css`
-- `assets/habeeb-office-banner.png`
-
-## Publish
-
-GitHub → Settings → Pages → Deploy from a branch → `main` → `/ (root)`.
+## Final details
+- Mobile-first / RTL
+- Blue Tabadul fuel card featured at the top because card issuance/activation is the core service.
+- Contact buttons: phone, Telegram, Facebook, Instagram, TikTok, Snapchat, Google Maps.
+- Footer attribution: Powered by IQ Group.
+- No backend or database.
 
 ## QR target
-
 https://03gtr.github.io/habeeb-office/
-
-The QR should point to the page URL, not directly to a social account.
