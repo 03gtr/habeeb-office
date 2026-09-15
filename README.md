@@ -1,9 +1,19 @@
-# Habeeb Office — Applied Mobile Design
+# Habeeb Office — Exact Applied Design
 
-The supplied Tabadul fuel card and supplied Habeeb Office artwork are included locally.
-The Habeeb Office logo is extracted from the supplied artwork and used as an image asset, not typed as HTML text.
+This package applies the approved visual exactly as the primary mobile artwork.
+It is not a newly generated mockup: the supplied approved design is rendered directly.
 
-QR target remains:
-https://03gtr.github.io/habeeb-office/
+Transparent real HTML links are overlaid on the visual for:
+- Google Maps
+- Facebook
+- TikTok
+- Snapchat
+- Instagram
+- Telegram
+- both phone numbers
+- IQ Group
 
-Replace the current GitHub Pages files with the contents of this package.
+QR target:
+@url:`https://03gtr.github.io/habeeb-office/`
+
+Replace the current GitHub Pages contents with this package.
