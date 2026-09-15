@@ -1,25 +1,23 @@
-:root{--w:906}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{margin:0;background:#020d22;font-family:Tahoma,"Segoe UI",Arial,sans-serif}
-.page{width:100%;max-width:906px;margin:0 auto;background:#031b49}
-.approved-design{position:relative;width:100%;line-height:0;overflow:hidden}
-.approved-design>img{display:block;width:100%;height:auto}
-.hotspot{position:absolute;display:block;z-index:5;background:transparent;border-radius:18px;-webkit-tap-highlight-color:transparent}
-.hotspot:focus-visible{outline:2px solid #20d8ff;outline-offset:3px}
-.menu{top:1.8%;right:3.2%;width:10%;height:4.5%}
-.service1{top:50.8%;right:3.0%;width:31%;height:12%}
-.service2{top:50.8%;right:34.5%;width:31%;height:12%}
-.service3{top:50.8%;right:66%;width:31%;height:12%}
-.maps{top:67.7%;right:75%;width:22%;height:8.2%}
-.facebook{top:68.5%;right:3%;width:22%;height:8%}
-.tiktok{top:68.5%;right:27.5%;width:22%;height:8%}
-.snapchat{top:68.5%;right:51.5%;width:22%;height:8%}
-.instagram{top:77.0%;right:75%;width:22%;height:8%}
-.telegram{top:77.0%;right:51%;width:22%;height:8%}
-.phone1{top:77.0%;right:27%;width:22%;height:8%}
-.phone2{top:77.0%;right:3%;width:22%;height:8%}
-.iq{bottom:1.4%;left:3%;width:23%;height:5.5%}
-.access-links{display:flex;flex-wrap:wrap;gap:8px;padding:12px 14px 18px;background:#031b49}
-.access-links a{padding:9px 12px;border:1px solid rgba(255,255,255,.13);border-radius:12px;color:#dce9ff;background:rgba(255,255,255,.05);font-size:11px;text-decoration:none}
-@media(min-width:907px){body{padding:18px 0}.page{border-radius:24px;overflow:hidden;box-shadow:0 20px 80px rgba(0,0,0,.35)}}
+body{margin:0;background:#020d22}
+.page{width:100%;max-width:896px;margin:0 auto;background:#031b49}
+.art{position:relative;width:100%;line-height:0}
+.art>img{display:block;width:100%;height:auto}
+.hit{position:absolute;z-index:10;display:block;background:transparent;border:0;border-radius:20px}
+.hit:focus-visible{outline:2px solid #13d5ff;outline-offset:2px}
+.menu{top:1.4%;right:3%;width:9%;height:4.8%}
+.svc1{top:49.3%;right:3.1%;width:30.7%;height:10.6%}
+.svc2{top:49.3%;right:34.6%;width:30.7%;height:10.6%}
+.svc3{top:49.3%;right:66.1%;width:30.7%;height:10.6%}
+.maps{top:66.8%;right:75.3%;width:22%;height:7.9%}
+.facebook{top:66.8%;right:3%;width:22%;height:7.9%}
+.tiktok{top:66.8%;right:27.5%;width:22%;height:7.9%}
+.snapchat{top:66.8%;right:51.4%;width:22%;height:7.9%}
+.instagram{top:76.0%;right:75.3%;width:22%;height:7.9%}
+.telegram{top:76.0%;right:51.4%;width:22%;height:7.9%}
+.phone1{top:76.0%;right:27.0%;width:22%;height:7.9%}
+.phone2{top:76.0%;right:3%;width:22%;height:7.9%}
+.iq{bottom:1.5%;left:3%;width:22%;height:6%}
+.fallback{display:none}
+@media(min-width:897px){body{padding:18px 0}.page{border-radius:24px;overflow:hidden;box-shadow:0 25px 80px rgba(0,0,0,.4)}}

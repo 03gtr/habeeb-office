@@ -1,19 +1,12 @@
-# Habeeb Office — Exact Applied Design
+# Habeeb Office — Pixel Locked
 
-This package applies the approved visual exactly as the primary mobile artwork.
-It is not a newly generated mockup: the supplied approved design is rendered directly.
+The approved design screenshot is used directly as the page artwork.
+This deliberately avoids re-typesetting or re-creating the logo in CSS/HTML.
 
-Transparent real HTML links are overlaid on the visual for:
-- Google Maps
-- Facebook
-- TikTok
-- Snapchat
-- Instagram
-- Telegram
-- both phone numbers
-- IQ Group
+Transparent HTML hit areas keep the important controls functional:
+phone, Telegram, Instagram, Facebook, TikTok, Snapchat, Google Maps and IQ Group.
 
 QR target:
-@url:`https://03gtr.github.io/habeeb-office/`
+https://03gtr.github.io/habeeb-office/
 
-Replace the current GitHub Pages contents with this package.
+Replace the current GitHub Pages contents with these files.
