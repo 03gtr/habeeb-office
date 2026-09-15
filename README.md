@@ -1,7 +1,11 @@
-# Habeeb Office — one-file GitHub Pages build
+# Habeeb Office — Reliable GitHub Pages build
 
-IMPORTANT: this build is intentionally self-contained.
-The approved artwork is embedded inside index.html, so GitHub Pages cannot lose the image or CSS because of a missing asset/style file.
+IMPORTANT:
+Upload BOTH:
+- index.html
+- assets/habeeb-office-approved.png
 
-Upload ONLY `index.html` to the repository root and replace the old index.html.
-No `assets` folder is required.
+The image is a normal local PNG referenced with a relative path. No base64/data URI is used.
+
+QR URL remains:
+https://03gtr.github.io/habeeb-office/
