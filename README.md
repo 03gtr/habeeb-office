@@ -1,14 +1,19 @@
-# Habeeb Office — QR Landing Page
+# Habeeb Office — Premium QR Page
 
-صفحة تعريفية ثابتة ومجانية لمكتب حبيب.
+Static, free GitHub Pages landing page for Habeeb Office.
 
-- GitHub Pages
-- Mobile-first / RTL
-- لا قاعدة بيانات ولا Backend
-- QR يشير إلى رابط الصفحة الثابت
-- روابط الهاتف وTelegram وFacebook وInstagram وTikTok وSnapchat وGoogle Maps
+## Files
 
-الرابط المقصود للـQR:
+- `index.html`
+- `style.css`
+- `assets/habeeb-office-banner.png`
+
+## Publish
+
+GitHub → Settings → Pages → Deploy from a branch → `main` → `/ (root)`.
+
+## QR target
+
 https://03gtr.github.io/habeeb-office/
 
-ملاحظة: الصفحة تعريفية للمكتب وفق المعلومات التي زود بها العميل، وليست الموقع الرسمي لشركة التبادل.
+The QR should point to the page URL, not directly to a social account.
