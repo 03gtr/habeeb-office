@@ -1,21 +1,11 @@
-# Habeeb Office — GitHub Pages
+# Habeeb Office — Premium Design
 
-## ملفات المستودع المطلوبة
-
-ارفع هذين الملفين فقط إلى جذر `main`:
+ارفع هذين الملفين إلى جذر مستودع GitHub Pages:
 
 - `index.html`
-- `habeeb-office-approved.png`
-
-لا تستخدم `assets` ولا أي مجلدات.
-
-## GitHub Pages
-
-Settings → Pages → Build and deployment:
-
-- Source: Deploy from a branch
-- Branch: `main`
-- Folder: `/ (root)`
+- `habeeb-office-premium.png`
 
 الرابط:
 https://03gtr.github.io/habeeb-office/
+
+التصميم مبني على النسخة الفاخرة الجديدة، مع الحفاظ على روابط التواصل الأصلية.

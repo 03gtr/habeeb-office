@@ -3,93 +3,82 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>مكتب حبيب — الوكيل الرسمي لشركة التبادل</title>
-<meta name="description" content="مكتب حبيب — إصدار وتفعيل البطاقات الوقودية الإلكترونية">
+<title>مكتب حبيب — الخدمات الإلكترونية</title>
+<meta name="description" content="مكتب حبيب — خدمات إلكترونية في مكان واحد">
 <style>
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
-html,body{margin:0;padding:0;background:#061a4a}
+html,body{margin:0;padding:0;background:#031432}
 body{display:flex;justify-content:center;min-height:100vh}
 .page{position:relative;width:min(100vw,906px);line-height:0}
 .art{display:block;width:100%;height:auto}
 .hotspot{
- position:absolute;display:block;z-index:20;
- background:transparent;border:0;padding:0;margin:0;
- cursor:pointer;text-decoration:none;
+ position:absolute;display:block;z-index:20;background:transparent;border:0;
+ padding:0;margin:0;cursor:pointer;text-decoration:none;
  -webkit-tap-highlight-color:transparent
 }
-.hotspot:focus-visible{outline:2px solid #fff;outline-offset:2px;border-radius:16px}
-
-/* فقط أزرار التواصل/التنقل قابلة للنقر.
-   بطاقات خدمات المكتب أدناه للعرض فقط. */
+.hotspot:focus-visible{outline:2px solid #fff;outline-offset:3px;border-radius:16px}
 
 /* أعلى الصفحة */
-.menu{right:3%;top:2%;width:7%;height:5%}
-.badge{left:3%;top:2%;width:18%;height:5%}
+.menu{right:3%;top:1.7%;width:7%;height:4.5%}
+.badge{left:3%;top:1.7%;width:18%;height:4.5%}
 
-/* قسم التواصل: 4 بطاقات في الصف الأول */
-.maps{right:74.3%;top:69.7%;width:21.8%;height:8.7%}
-.snap{right:51.1%;top:69.7%;width:21.8%;height:8.7%}
-.tiktok{right:27.9%;top:69.7%;width:21.8%;height:8.7%}
-.facebook{right:3.8%;top:69.7%;width:21.8%;height:8.7%}
+/* خدمات: للعرض فقط — لا نضع روابط غير معروفة */
+.service1{right:66.0%;top:43.7%;width:30.5%;height:10.8%}
+.service2{right:34.8%;top:43.7%;width:30.5%;height:10.8%}
+.service3{right:3.5%;top:43.7%;width:30.5%;height:10.8%}
+.service4{right:66.0%;top:54.9%;width:30.5%;height:10.8%}
+.service5{right:34.8%;top:54.9%;width:30.5%;height:10.8%}
+.service6{right:3.5%;top:54.9%;width:30.5%;height:10.8%}
 
-/* قسم التواصل: 4 بطاقات في الصف الثاني */
-.instagram{right:74.3%;top:79.0%;width:21.8%;height:8.7%}
-.telegram{right:51.1%;top:79.0%;width:21.8%;height:8.7%}
-.phone1{right:27.9%;top:79.0%;width:21.8%;height:8.7%}
-.phone2{right:3.8%;top:79.0%;width:21.8%;height:8.7%}
+/* التواصل */
+.maps{right:74.2%;top:72.4%;width:21.8%;height:7.5%}
+.snap{right:51.0%;top:72.4%;width:21.8%;height:7.5%}
+.tiktok{right:27.8%;top:72.4%;width:21.8%;height:7.5%}
+.facebook{right:3.7%;top:72.4%;width:21.8%;height:7.5%}
+.instagram{right:74.2%;top:80.5%;width:21.8%;height:7.5%}
+.telegram{right:51.0%;top:80.5%;width:21.8%;height:7.5%}
+.phone1{right:27.8%;top:80.5%;width:21.8%;height:7.5%}
+.phone2{right:3.7%;top:80.5%;width:21.8%;height:7.5%}
 
-/* نقطة التمرير لقسم التواصل */
-#contact{position:absolute;top:64.2%;right:0;width:1px;height:1px}
+/* حماية بسيطة من السحب/التحديد */
+img{user-select:none;-webkit-user-drag:none}
 </style>
 </head>
 <body>
 <main class="page" aria-label="مكتب حبيب">
-  <img class="art" src="./habeeb-office-approved.png"
-       alt="مكتب حبيب — إصدار وتفعيل البطاقات الوقودية الإلكترونية">
+  <img class="art" src="./habeeb-office-premium.png"
+       alt="مكتب حبيب — خدمات إلكترونية في مكان واحد">
 
-  <!-- هذه الأزرار تنقل إلى قسم تواصل معنا فقط -->
   <a class="hotspot menu" href="#contact" aria-label="تواصل معنا"></a>
   <a class="hotspot badge" href="#contact" aria-label="تواصل معنا"></a>
 
-  <!--
-    خدمات المكتب الثلاثة:
-    للعرض فقط حسب التصميم. لا روابط ولا انتقالات.
-    إصدار البطاقة الوقودية / تفعيل البطاقة / إضافة مركبة
-  -->
-
-  <!-- روابط التواصل فقط -->
-  <a class="hotspot maps"
-     href="https://maps.app.goo.gl/i9PLFNuVPjTfHUZH9?g_st=ac"
-     target="_blank" rel="noopener noreferrer" aria-label="Google Maps"></a>
-
-  <a class="hotspot snap"
-     href="https://www.snapchat.com/add/habeeboffice"
-     target="_blank" rel="noopener noreferrer" aria-label="Snapchat"></a>
-
-  <a class="hotspot tiktok"
-     href="https://www.tiktok.com/@habeeboffice1"
-     target="_blank" rel="noopener noreferrer" aria-label="TikTok"></a>
-
-  <a class="hotspot facebook"
-     href="https://facebook.com/share/14pWqjGjXtZ"
-     target="_blank" rel="noopener noreferrer" aria-label="Facebook"></a>
-
-  <a class="hotspot instagram"
-     href="https://www.instagram.com/habeeb_office/"
-     target="_blank" rel="noopener noreferrer" aria-label="Instagram"></a>
-
-  <a class="hotspot telegram"
-     href="https://t.me/Habeeb_Office"
-     target="_blank" rel="noopener noreferrer" aria-label="Telegram"></a>
-
-  <a class="hotspot phone1"
-     href="tel:07735864107" aria-label="الاتصال 07735864107"></a>
-
-  <a class="hotspot phone2"
-     href="tel:07515745226" aria-label="الاتصال 07515745226"></a>
+  <!-- بطاقات الخدمات: عرض فقط -->
+  <span class="hotspot service1" aria-label="كافة الخدمات الإلكترونية"></span>
+  <span class="hotspot service2" aria-label="كوبوني"></span>
+  <span class="hotspot service3" aria-label="نفطكم"></span>
+  <span class="hotspot service4" aria-label="حجز مواعيد اختبار القيادة"></span>
+  <span class="hotspot service5" aria-label="حجز مواعيد جواز السفر الإلكتروني"></span>
+  <span class="hotspot service6" aria-label="البطاقة التموينية"></span>
 
   <div id="contact" aria-hidden="true"></div>
+
+  <a class="hotspot maps" href="https://maps.app.goo.gl/i9PLFNuVPjTfHUZH9?g_st=ac"
+     target="_blank" rel="noopener noreferrer" aria-label="Google Maps"></a>
+  <a class="hotspot snap" href="https://www.snapchat.com/add/habeeboffice"
+     target="_blank" rel="noopener noreferrer" aria-label="Snapchat"></a>
+  <a class="hotspot tiktok" href="https://www.tiktok.com/@habeeboffice1"
+     target="_blank" rel="noopener noreferrer" aria-label="TikTok"></a>
+  <a class="hotspot facebook" href="https://facebook.com/share/14pWqjGjXtZ"
+     target="_blank" rel="noopener noreferrer" aria-label="Facebook"></a>
+  <a class="hotspot instagram" href="https://www.instagram.com/habeeb_office/"
+     target="_blank" rel="noopener noreferrer" aria-label="Instagram"></a>
+  <a class="hotspot telegram" href="https://t.me/Habeeb_Office"
+     target="_blank" rel="noopener noreferrer" aria-label="Telegram"></a>
+  <a class="hotspot phone1" href="tel:07735864107"
+     aria-label="الاتصال 07735864107"></a>
+  <a class="hotspot phone2" href="tel:07515745226"
+     aria-label="الاتصال 07515745226"></a>
 </main>
 </body>
 </html>
